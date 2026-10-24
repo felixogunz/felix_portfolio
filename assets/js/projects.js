@@ -6,6 +6,46 @@
 
 const projects = [
     {
+        id: "legal-chatbot",
+        title: "Felix Legal Chatbot",
+        category: "ai",
+        categoryLabel: "AI / MACHINE LEARNING",
+        featured: true,
+        year: "2026",
+
+        description:
+            "A Nigerian legal research assistant designed to help users explore legal principles, analyse court judgments, review legal documents, and prepare structured legal drafts through a single workspace.",
+
+
+        highlights: [
+            "Nigerian legal research and case analysis",
+            "Legal document upload and review",
+            "Structured legal drafting assistance",
+            "Markdown-formatted responses and readable output",
+            "Interactive workspace with dedicated legal tools"
+        ],
+
+        technologies: [
+            "Python",
+            "Flask",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Marked.js",
+            "DOMPurify"
+        ],
+
+        image: "assets/images/felix_legal_chatbot.png",
+        imageAlt: "Legal Chatbot application preview",
+
+        demoUrl: "https://felixlawai.com/",
+        repoUrl: "https://github.com/felixogunz/felix-legal-chatbot",
+
+        status: "Live Demo",
+
+        accent: "mint"
+    },
+    {
         id: "spamguard-ai",
         title: "Felix SpamGuard AI",
         category: "ai",
@@ -64,11 +104,11 @@ const projects = [
             "JavaScript"
         ],
 
-        image: "",
+        image: "assets/images/felix_estate_iq.png",
         imageAlt: "EstateIQ property intelligence application preview",
 
-        demoUrl: "",
-        repoUrl: "",
+        demoUrl: "https://felix-estate-iq.onrender.com/",
+        repoUrl: "https://github.com/felixogunz/felix_estate_iq",
 
         status: "In development",
 
@@ -99,11 +139,11 @@ const projects = [
             "JavaScript"
         ],
 
-        image: "",
+        image: "assets/images/felix_business_manager.png",
         imageAlt: "Felix Business Manager application preview",
 
-        demoUrl: "",
-        repoUrl: "",
+        demoUrl: "https://felix-business-manager.onrender.com/",
+        repoUrl: "https://github.com/felixogunz/felix-business-manager",
 
         status: "In development",
 
