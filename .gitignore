@@ -1,0 +1,35 @@
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+coverage/
+
+# Python environments, if used for local tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local development files
+*.local
